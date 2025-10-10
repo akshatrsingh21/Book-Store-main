@@ -1,0 +1,6 @@
+# This file configures the build settings for Netlify
+
+[build]
+  base    = "frontend" # The subdirectory where your frontend code lives
+  publish = "dist" # The directory that contains the built site
+  command = "npm run build" # The command to build your site

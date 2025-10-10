@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url("https://t4.ftcdn.net/jpg/03/04/48/89/360_F_304488952_rwBKayYk2cXgxcHQ3Oddh5GeMqQlRhM8.jpg"); /* Replace with your desired image URL */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 91.5vh; /* Makes the background cover the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 0px solid #ccc;
+  border-radius: 8px;
+  background:transparent; /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.signup-form input {
+  width: 73%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.email-label {
+  margin-left: 16px;
+  text-align: center;
+  width: 99%;
+}
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.signup-container p {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.signup-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-container p a:hover {
+  text-decoration: underline;
+}

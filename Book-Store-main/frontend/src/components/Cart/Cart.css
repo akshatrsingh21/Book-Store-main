@@ -1,0 +1,55 @@
+/* filepath: e:\College_Work\FSD\Task-5\Book\books\src\components\Cart\Cart.css */
+.cart-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cart-container h1 {
+  margin-bottom: 20px;
+}
+
+.cart-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart-book-image {
+  width: 100px;
+  height: auto;
+}
+
+.remove-from-cart-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-from-cart-button:hover {
+  background-color: #c0392b;
+}
