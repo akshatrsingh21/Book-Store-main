@@ -155,9 +155,7 @@ This project is licensed under the **MIT License**. See the ```LICENSE``` file f
 
 ## Contact me
 
-📧 Email: kanil25566@gmail.com
-
-🔗 GitHub: https://github.com/RAK4307
+📧 Email: rajakshat1305@gmail.com
 
 ## Thank You for Visiting!
 
